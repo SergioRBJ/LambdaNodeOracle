@@ -1,0 +1,18 @@
+{
+  "name": "lambdanodeoracle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serverless.yml",
+  "dependencies": {
+    "oracledb": "^4.0.1",
+    "oracledb-for-lambda": "^1.9.3-8a"
+  },
+  "devDependencies": {
+    "serverless-offline": "^5.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio Ricardo Bernardi Junior",
+  "license": "ISC"
+}

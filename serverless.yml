@@ -1,0 +1,22 @@
+service: lambda-node-oracle
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  stage: dev
+  region: sa-east-1
+
+functions:
+  data-return:
+    handler: data-return.handle
+    environment:
+      HOSTALIASES: /tmp/HOSTALIASES
+    description: método que realiza um pool de conexão e executa uma consulta no banco.
+    events:
+      - http:
+          path: returndata
+          method: post
+          cors: true
+
+plugins:
+  - serverless-offline
