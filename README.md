@@ -9,6 +9,8 @@
 
 Este micro serviço usa o framework serverless para realizar o deploy automático no aws.
 
+Certamente você irá precisar da VPC configurada com uma VPN para o seu endpoint Oracle, então lembre-se de inseri-la nas configurações da função Lambda :)
+
 
 ### Setup
 
@@ -18,5 +20,9 @@ Este micro serviço usa o framework serverless para realizar o deploy automátic
 $ npm install serverless -g
 $ npm init
 ```
+> inserindo as credenciais do seu servidor cloud
 
+```shell
+$ serverless config credentials -o --provider aws --key *sua chave de acesso* --secret *sua secret key*
 
+```
