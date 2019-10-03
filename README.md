@@ -20,7 +20,7 @@ Certamente você irá precisar da VPC configurada com uma VPN para o seu endpoin
 $ npm install serverless -g
 $ npm init
 ```
-> inserindo as credenciais do seu servidor cloud
+> inserindo as credenciais do seu servidor cloud para o deploy
 
 ```shell
 $ serverless config credentials -o --provider aws --key *sua chave de acesso* --secret *sua secret key*
