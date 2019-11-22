@@ -1,6 +1,6 @@
 
 
-# LambdaNodeOracle
+# lambda-node-oracle
 
 > Função Lambda em Node.js que realiza conexão com banco de dados oracle e executa uma consulta, embarcado do framework serverless.
 
