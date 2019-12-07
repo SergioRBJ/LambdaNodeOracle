@@ -5,12 +5,12 @@ provider:
   runtime: nodejs10.x
   stage: dev
   region: sa-east-1
+    environment:
+      HOSTALIASES: /tmp/HOSTALIASES
 
 functions:
   data-return:
     handler: data-return.handle
-    environment:
-      HOSTALIASES: /tmp/HOSTALIASES
     description: método que realiza um pool de conexão e executa uma consulta no banco.
     events:
       - http:

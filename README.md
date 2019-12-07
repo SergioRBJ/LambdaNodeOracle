@@ -14,15 +14,17 @@ Certamente você irá precisar da VPC configurada com uma VPN para o seu endpoin
 
 ### Setup
 
-> instalar os pacotes
+> Instalar os pacotes
 
 ```shell
 $ npm install serverless -g
 $ npm init
 ```
-> inserindo as credenciais do seu servidor cloud para o deploy
+> Inserindo as credenciais do seu servidor cloud para o deploy
 
 ```shell
 $ serverless config credentials -o --provider aws --key *sua chave de acesso* --secret *sua secret key*
 
 ```
+> Alterando configurações de coneção
+No arquivo config.json, altere os valores para as suas credenciais de banco.
