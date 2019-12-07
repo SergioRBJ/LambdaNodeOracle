@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js init -y
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Android\Sdk\platform-tools;C:\Android\Sdk\tools;C:\Users\Sergio Bernardi\AppData\Local\Microsoft\WindowsApps;C:\Users\Sergio Bernardi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Sergio Bernardi\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\Sergio Bernardi\AppData\Roaming\npm;C:\Users\Sergio Bernardi\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.11.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\Sergio Bernardi\Desktop\lambda-node-oracle\package.json: Unexpected token } in JSON at position 469
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:304:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "lambdanodeoracle",
+    "version": "1.0.0",
+    "description": "",
+    "main": "serverless.yml",
+    "dependencies": {
+      "oracledb": "^4.0.1",
+      "oracledb-for-lambda": "^1.9.3-8a"
+    },
+    "devDependencies": {
+      "serverless-offline": "^5.11.0",
+      "eslint": "^6.5.1",
+      "eslint-config-airbnb-base": "^14.0.0",
+      "eslint-config-prettier": "^6.4.0",
+      "eslint-plugin-import": "^2.18.2",
+      "eslint-plugin-prettier": "^3.1.1",
+      "prettier": "^1.18.2",
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Sergio Ricardo Bernardi Junior",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
