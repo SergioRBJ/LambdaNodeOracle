@@ -27,4 +27,5 @@ $ serverless config credentials -o --provider aws --key *sua chave de acesso* --
 
 ```
 > Alterando configurações de coneção
+
 No arquivo config.json, altere os valores para as suas credenciais de banco.
